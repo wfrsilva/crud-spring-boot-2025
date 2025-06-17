@@ -1,0 +1,26 @@
+### Atualizar usuário com ID
+PUT http://localhost:8080/usuario?id=2
+Content-Type: application/json
+
+{
+  "email": "codornaatualizado@org.com"  
+}
+
+### testar alterar so um paramentro
+
+PUT http://localhost:8080/usuario?id=1
+Content-Type: application/json
+
+{
+  "nome": "Codorna Atualizado",
+  "email": "codornaatualizado@org.com"  
+}
+
+
+### Atualizar usuário com ID
+PUT http://localhost:8080/usuario?id=3
+Content-Type: application/json
+
+{
+  "email": "alice@nailhadamagia.com"  
+}

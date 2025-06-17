@@ -1,0 +1,9 @@
+#GET http://10.255.255.254:8080/users
+GET http://localhost:8080/usuario?email=codorna@org.com
+
+
+###
+GET http://localhost:8080/usuario?email=codornaatualizado@org.com
+
+###
+GET http://localhost:8080/usuario?email=dinodasilva@ssauro.com

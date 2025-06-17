@@ -1,0 +1,4 @@
+#GET http://10.255.255.254:8080/users
+GET http://localhost:8080/usuario?id=1
+
+#tem que criar no controller
